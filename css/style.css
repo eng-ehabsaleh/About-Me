@@ -1,0 +1,24 @@
+body header h1 {
+    text-align: center;
+    color: blue;
+    background-color: black;
+}
+nav ul li{
+    color: black;
+    background-color: green;
+    text-align: right;
+    display: inline-block;
+    margin: 30px;
+    text-decoration: none;
+}
+#first{
+    color: chartreuse;
+    background-color: cyan;
+}
+.sec{
+    color: black;
+    background-color: darkcyan;
+}
+a{
+    text-decoration: none;
+}
