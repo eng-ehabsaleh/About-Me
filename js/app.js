@@ -1,5 +1,6 @@
 'use strict';
-let name = prompt('Hi, what\'s your name')
+
+/*let name = prompt('Hi, what\'s your name')
 alert('Hi ' + name +' I would like to play a qussing game with you about me, let\'s go ')
 let fir = prompt('I\'am above 25 years old? yes or no')
 switch (fir.toLocaleLowerCase()){
@@ -57,4 +58,115 @@ alert('I\'m glade that you enjoied our game ' + name)
      console.log(fifth);
      alert('Sorry to bother you ' + name)
 
- }
+ }<-- this is an infinite loop --->
+ let num = 3;
+ let six = prompt('guisse a number from 1-6');
+ while(six > 6){
+    six = prompt('ya habibi wallah men 1-6','yalla men 1-6');}
+    while(six!=num){
+ 
+     switch(six){
+         case '6':
+             six = prompt('you are high','go down')
+             console.log(six);
+             break;
+         case '5':
+             six = prompt('you are high','go down')
+             console.log(six);
+             break;
+         case '4':
+             six = prompt('you are so close','go down')
+             console.log(six);
+             break;
+         case '2':
+            six = prompt('you are so close','go up')
+            console.log(six);
+            break;
+         case '1':
+             six = prompt('you picked a far low number','go up')
+             console.log(six); 
+             break;     
+
+         case '3':
+             alert('great,correct answer')
+             console.log(six);
+             break;
+
+             default:
+                 while(six > 6 || six < 1){
+                 six = prompt('from 1-6 only','play with me')
+                console.log(six);}
+
+
+     }
+    }<---- this is an infinite loop ----> */
+
+
+/*for (let i = 1; i < 4; i++){
+    let my =prompt('guess my age,you only has 4  opportunities to get the correct answer ?','hint: it\'s between 30 & 20');
+    switch(my){
+        case '30':
+            alert('you are so high');
+            my = prompt('try again','between 20 -30');
+            break;
+        case '29':   
+            alert('you are high');
+            my = prompt('try again','between 20 -30');
+            break;
+        case '28':   
+            alert('you are high');
+            my = prompt('try again','between 20 -30');
+            break;
+        case '28':   
+            alert('you are high');
+            my = prompt('try again','between 20 -30');
+            break;
+        case '27':
+            alert('you are high');
+            my = prompt('try again','between 20 -30');
+            break;
+        case '26':
+            alert('correct;I\'m 26 years old');
+            break;
+        case '25':
+            alert('you are below the correct answer');
+            my = prompt('try again','between 20 -30');
+            break;
+        case '24':
+            alert('you are below the correct answer');
+            my = prompt('try again','between 20 -30');
+            break;
+        case '23':
+            alert('you are below the correct answer');
+            my = prompt('try again','between 20 -30');
+            break;
+        case '22':
+            alert('you are below the correct answer');
+            my = prompt('try again','between 20 -30');
+            break;
+        case '21':
+            alert('you are below the correct answer');
+            my = prompt('try again','between 20 -30');
+            break;
+        case '20':
+            alert('you are far below the correct answer');
+            my = prompt('try again','between 20 -30');
+            break;                                         
+    }
+}*/
+
+
+for(let i=0;i<3;i++){
+    let six=prompt('guess my age','it\'s between 20-30');
+    if(six>26){
+        alert('too high');
+        six=prompt('try a lower number');  
+}
+    if(six<26){
+        alert('too low');
+        six=('try a higher number');
+}
+}
+
+
+
