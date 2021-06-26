@@ -73,132 +73,132 @@ function ehab5(fifth) {
     }
 } ehab5(fifth);
 
-    //  }<-- this is an infinite loop --->
-    //  let num = 3;
-    //  let six = prompt('guisse a number from 1-6');
-    //  while(six > 6){
-    //     six = prompt('ya habibi wallah men 1-6','yalla men 1-6');}
-    //     while(six!=num){
+//  }<-- this is an infinite loop --->
+//  let num = 3;
+//  let six = prompt('guisse a number from 1-6');
+//  while(six > 6){
+//     six = prompt('ya habibi wallah men 1-6','yalla men 1-6');}
+//     while(six!=num){
 
-    //      switch(six){
-    //          case '6':
-    //              six = prompt('you are high','go down')
-    //              console.log(six);
-    //              break;
-    //          case '5':
-    //              six = prompt('you are high','go down')
-    //              console.log(six);
-    //              break;
-    //          case '4':
-    //              six = prompt('you are so close','go down')
-    //              console.log(six);
-    //              break;
-    //          case '2':
-    //             six = prompt('you are so close','go up')
-    //             console.log(six);
-    //             break;
-    //          case '1':
-    //              six = prompt('you picked a far low number','go up')
-    //              console.log(six); 
-    //              break;     
+//      switch(six){
+//          case '6':
+//              six = prompt('you are high','go down')
+//              console.log(six);
+//              break;
+//          case '5':
+//              six = prompt('you are high','go down')
+//              console.log(six);
+//              break;
+//          case '4':
+//              six = prompt('you are so close','go down')
+//              console.log(six);
+//              break;
+//          case '2':
+//             six = prompt('you are so close','go up')
+//             console.log(six);
+//             break;
+//          case '1':
+//              six = prompt('you picked a far low number','go up')
+//              console.log(six); 
+//              break;     
 
-    //          case '3':
-    //              alert('great,correct answer')
-    //              console.log(six);
-    //              break;
+//          case '3':
+//              alert('great,correct answer')
+//              console.log(six);
+//              break;
 
-    //              default:
-    //                  while(six > 6 || six < 1){
-    //                  six = prompt('from 1-6 only','play with me')
-    //                 console.log(six);}
-
-
-    //      }
-    //     }<---- this is an infinite loop ----> 
+//              default:
+//                  while(six > 6 || six < 1){
+//                  six = prompt('from 1-6 only','play with me')
+//                 console.log(six);}
 
 
+//      }
+//     }<---- this is an infinite loop ----> 
 
 
 
 
 
 
-    // let age = prompt('Guess how old I\'m ?', 'your answer should be a range like : 10-20');
-
-    // while (!age) {
-    //     age = prompt('Enter a Number Please', 'Ex:100-110');
-    // }
-    // let q = 0;
 
 
+// let age = prompt('Guess how old I\'m ?', 'your answer should be a range like : 10-20');
 
-    // function ehab6(q) {
-    //     while (q < 3) {
-    //         if (age == '20-30') {
-    //             alert('That\'s right');
-    //             score++;
-    //             break;
-    //         }
-    //         if (age < '20-30') {
+// while (!age) {
+//     age = prompt('Enter a Number Please', 'Ex:100-110');
+// }
+// let q = 0;
 
-    //             age = prompt('Try a higher value');
-    //             q++
 
-    //         } else {
 
-    //             age = prompt('Try a lower value');
-    //             q++
+// function ehab6(q) {
+//     while (q < 3) {
+//         if (age == '20-30') {
+//             alert('That\'s right');
+//             score++;
+//             break;
+//         }
+//         if (age < '20-30') {
 
-    //         }
-    //     }
-    // } ehab6(q);
-    
-    let f = prompt('guess who many years of experiance do i have',"it\'s less than 5 years");
-    let z=0;
-    while (f>5){
-     z =prompt('you have to enter a number','it should be less than 5')
+//             age = prompt('Try a higher value');
+//             q++
+
+//         } else {
+
+//             age = prompt('Try a lower value');
+//             q++
+
+//         }
+//     }
+// } ehab6(q);
+
+let f = prompt('guess who many years of experiance do i have', "it\'s less than 5 years");
+let z = 0;
+function ehab6(){while (f > 5) {
+    z = prompt('you have to enter a number', 'it should be less than 5')
+
+for (let i = 0; i < 3;) {
+    if (z > 5) {
+        alert('you went so high');
+        z = prompt('try lower number', 'less than 5'); i++
+    } if (z = 4) {
+        alert('great I have 4 years of experience'); i++; score++;
     }
-    for(let i=0;i<3;){
-        if(z>5){
-            alert('you went so high');
-            z=prompt('try lower number','less than 5');i++
-        } if(z=4){
-            alert('great I have 4 years of experience');i++
-            breake;}
-        else{
-            alert('alert you went so down')
-            z=prompt('try a higer number','also less than 5 ');i++
+    else {
+        alert('alert you went so down')
+        z = prompt('try a higer number', 'also less than 5 '); i++
 
-        }  
+    }
 
-        }
-    
+}}
 
-    let car = ['Benz', 'BMW', 'Golf', 'bugatti']
-    let correct = false;
-    let v = '';
-    function ehab7(v) {
-        for (let k = 0; k < 6; k++) {
-            v = prompt('Guess my Favorite car ', 'Choose a German car');
+
+let car = ['Benz', 'BMW', 'Golf', 'bugatti']
+let correct = false;
+let v = '';
+function ehab7(v) {
+    for (let k = 0; k < 6; k++) {
+        v = prompt('Guess my Favorite car ', 'Choose a German car');
 
 
 
-            for (let m = 0; m < car.length; m++) {
+        for (let m = 0; m < car.length; m++) {
 
-                if (v == car[m]) {
-                    alert('Good Job');
-                    score++;
-                    correct = true
-                    k = 7;
-                    break;
-                }
-                if (correct) {
-                    break;
-                }
+            if (v == car[m]) {
+                alert('Good Job');
+                score++;
+                correct = true
+                k = 7;
+                break;
             }
-
+            if (correct) {
+                break;
+            }
         }
-    } ehab7(v);
+
+    }
+} ehab7(v);
 alert('My Favorite car is : BMW');
 
 
