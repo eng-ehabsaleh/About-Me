@@ -123,35 +123,56 @@ function ehab5(fifth) {
 
 
 
-    let age = prompt('Guess how old I\'m ?', 'your answer should be a range like : 10-20');
+    // let age = prompt('Guess how old I\'m ?', 'your answer should be a range like : 10-20');
 
-    while (!age) {
-        age = prompt('Enter a Number Please', 'Ex:100-110');
+    // while (!age) {
+    //     age = prompt('Enter a Number Please', 'Ex:100-110');
+    // }
+    // let q = 0;
+
+
+
+    // function ehab6(q) {
+    //     while (q < 3) {
+    //         if (age == '20-30') {
+    //             alert('That\'s right');
+    //             score++;
+    //             break;
+    //         }
+    //         if (age < '20-30') {
+
+    //             age = prompt('Try a higher value');
+    //             q++
+
+    //         } else {
+
+    //             age = prompt('Try a lower value');
+    //             q++
+
+    //         }
+    //     }
+    // } ehab6(q);
+    
+    let f = prompt('guess who many years of experiance do i have',"it\'s less than 5 years");
+    let z=0;
+    while (f>5){
+     z =prompt('you have to enter a number','it should be less than 5')
     }
-    let q = 0;
+    for(let i=0;i<3;){
+        if(z>5){
+            alert('you went so high');
+            z=prompt('try lower number','less than 5');i++
+        } if(z=4){
+            alert('great I have 4 years of experience');i++
+            breake;}
+        else{
+            alert('alert you went so down')
+            z=prompt('try a higer number','also less than 5 ');i++
 
+        }  
 
-
-    function ehab6(q) {
-        while (q < 3) {
-            if (age == '20-30') {
-                alert('That\'s right');
-                score++;
-                break;
-            }
-            if (age < '20-30') {
-
-                age = prompt('Try a higher value');
-                q++
-
-            } else {
-
-                age = prompt('Try a lower value');
-                q++
-
-            }
         }
-    } ehab6(q);
+    
 
     let car = ['Benz', 'BMW', 'Golf', 'bugatti']
     let correct = false;
